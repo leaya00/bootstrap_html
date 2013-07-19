@@ -17,10 +17,9 @@
 	 <script src="js/bootstrap.min.js"></script>
 	  <style type='text/css'>
       body {
-        
-		
 		font:13px Verdana,sans-serif;
       }
+	  
     </style>
 </head>
 <body>
@@ -36,7 +35,13 @@
 					<ul class="dropdown-menu" >
 						<li><a tabindex="-1" href="#">Action</a></li>
 						<li><a tabindex="-1" href="#">Another action</a></li>
-						<li><a tabindex="-1" href="#">Something else here</a></li>
+						<li class="dropdown-submenu"><a tabindex="-1" href="#" >Something else here</a>
+							 <ul class="dropdown-menu">
+								<li><a tabindex="-1" href="#">Action</a></li>
+								<li><a tabindex="-1" href="#">Another action</a></li>
+							</ul>
+						
+						</li>
 						<li class="divider"></li>
 						<li><a tabindex="-1" href="#">Separated link</a></li>
 					</ul>
@@ -49,47 +54,50 @@
 <div class='container-fluid'>
 	
 	<div id='content' class='row-fluid'>
-		<div class='span3 sidebar'>
-		<h2>Sidebar</h2>
+		<div class='span2 sidebar'>
+		<h2>侧边栏</h2>
 		<ul class="nav nav-tabs nav-stacked">
 		  <li class="dropdown">
-		  <a class="dropdown-toggle" data-toggle="dropdown"  href='#'>Another Link 1</a>
+		  <a class="dropdown-toggle" data-toggle="dropdown"  href='#'>栏目1</a>
 		      <ul class="dropdown-menu" >
 				<li><a tabindex="-1" href="#">Action</a></li>
 				<li><a tabindex="-1" href="#">Another action</a></li>
-				<li><a tabindex="-1" href="#">Something else here</a></li>
+				<li >
+					<a tabindex="-1" href="#">Something else here</a>
+					
+				</li>
 				<li class="divider"></li>
 				<li><a tabindex="-1" href="#">Separated link</a></li>
 				</ul>
 		  </li>
-		  <li><a href='#'>Another Link 2</a></li>
-		  <li><a href='#'>Another Link 3</a></li>
+		  <li><a href='#'>栏目1 2</a></li>
+		  <li><a href='#'>栏目1 3</a></li>
 		</ul>
 		</div>
-	  <div class='span9 main'>
-		<h2>Main Content Section</h2>
+	  <div class='span10 main'>
+		
+		<table class="table table-bordered" style="width: 400px;">
+			<tr><td>字段1</td><td>字段1</td><td>字段1</td><td>字段1</td><td>字段1</td></tr>
+			<tr><td>字段1</td><td>字段1</td><td>字段1</td><td>字段1</td><td>字段1</td></tr>
+			<tr><td>字段1</td><td>字段1</td><td>字段1</td><td>字段1</td><td>字段1</td></tr>
+			<tr><td>字段1</td><td>字段1</td><td>字段1</td><td>字段1</td><td>字段1</td></tr>
+			<tr><td>字段1</td><td>字段1</td><td>字段1</td><td>字段1</td><td>字段1</td></tr>
+			<tr><td>字段1</td><td>字段1</td><td>字段1</td><td>字段1</td><td>字段1</td></tr>
+		</table>
+		    <p class="muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+			<p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p>
+			<p class="text-error">Donec ullamcorper nulla non metus auctor fringilla.</p>
+			<p class="text-info">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis.</p>
+			<p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
 	  </div>
 	  
 	</div>
 </div>
 <div class='container-fluid'>
-	<div class='container'>
+	<div class='container' style='text-align:center;margin-top:20px;'>
 	
 
-		Designed and built with all the love in the world by @mdo and @fat.
-		<br/>
-		Code licensed under Apache License v2.0, documentation under CC BY 3.0.
-<br/>
-		Glyphicons Free licensed under CC BY 3.0.
-<br/>
-	本网站所列开源项目的中文版文档全部由Bootstrap中文网成员翻译，并全部遵循 CC BY 3.0协议发布。
-<br/>
-    关于
-    ·<br/>
-    问题反馈
-    ·<br/>
-    版本变更记录<br/>
-    京ICP备11008151号<br/>
+    <span>京ICP备11008151号</span>
 
 
 	</div>
